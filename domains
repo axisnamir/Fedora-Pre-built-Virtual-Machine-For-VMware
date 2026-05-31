@@ -1,0 +1,48 @@
+# gNewSense Evolution - Domain Registration Guide
+
+This document contains the official network configuration instructions for project maintainers, web developers, and adult server administrators. Because the project founder is under 18, **incoming adult maintainers are responsible for legally registering these web domains and configuring the network layout mapping.**
+
+---
+
+## 🛒 1. Domains to Purchase
+Please buy the following two lowercase web domain strings from a trusted registrar (such as Porkbun, Namecheap, or Cloudflare):
+
+1.  **`gnewsenserw.org`** — Main organization cluster domain.
+2.  **`gnewsenserw.com`** — Main extension target domain for alternative CPU hardware tracks.
+
+---
+
+## 🌐 2. Subdomain Mapping Index
+Once the main domains are purchased, the network team must configure the DNS dashboard panels to map out these exact functional subdomains:
+
+### For `gnewsenserw.org` (Core Infrastructure)
+*   **`cdimage.gnewsenserw.org`** ➔ Main ISO storage hosting node for stable core flags.
+*   **`spins.gnewsenserw.org`** ➔ Dedicated directory space for specialized Desktop and Window Manager releases.
+*   **`torrent.gnewsenserw.org`** ➔ BitTorrent announcer tracker node to manage peer-to-peer file distributions.
+*   **`mirrors.gnewsenserw.org`** ➔ Master rsync distribution engine mirror node where external sync clusters pull files.
+
+### For `://gnewsenserw.com` (Alternative Architectures)
+*   **`://gnewsenserw.com`** ➔ Hardware cluster endpoint tracking alternative processor architecture images (e.g., Raspberry Pi).
+
+### Historical Aliases (Legacy Intercepts)
+*   **`old.gnewsense.org`** ➔ Alias pointer string intended to intercept historical traffic and redirect it cleanly to our SourceForge static pages.
+
+---
+
+## 🛠️ 3. DNS Zone Record Target Blueprints
+Web developers must inject these exact parameters into the domain DNS records panel to link our custom names cleanly to our SourceForge static hosting spaces:
+
+```text
+;; TYPE    ;; SUBDOMAIN      ;; VALUE / TARGET TARGET
+CNAME      www               gnewsenserw.sourceforge.io.
+CNAME      cdimage           vhs-mirror.sourceforge.net.
+CNAME      spins             vhs-mirror.sourceforge.net.
+CNAME      old               gnewsenserw.sourceforge.io.
+A          torrent           203.0.113.12
+A          mirrors           203.0.113.15
+```
+
+---
+
+## 📄 4. A Message to Incoming Maintainers
+By registering these domains, you are providing the backbone infrastructure for a project targeting up to 19 desktop environments on a rock-solid Debian Forky base. Ensure all `A` and `CNAME` records remain active and point to our sandboxed build targets.
