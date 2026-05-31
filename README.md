@@ -1,18 +1,21 @@
 # gNewSense Evolution (Rolling Release Platform)
 
-Welcome to the modern rebirth of **gNewSense**. This repository hosts a curated collection of operating system editions built on a rock-solid, non-punishing **Debian** ecosystem base. To ensure hardware optimization and accessibility, our core editions are split into modern 64-Bit (`amd64`) and legacy 32-Bit (`i686`) standalone installers.
+Welcome to the future rebirth of **gNewSense**. This repository hosts a curated collection of operating system editions optimized for maximum long-term system stability and performance. To avoid unstable breaking updates, our entire ecosystem tracks the clean upstream **Debian** development branches.
 
-*   **CRITICAL ARCHITECTURE REMINDER:** 
-    *   **gNewSense Base Kali**, **gNewSense Base Parrot**, and **gNewSense Base PureOS** are offered **strictly as 64-Bit (`amd64`)** images due to their respective upstreams dropping 32-bit support for advanced dependencies, toolchains, and security workstation standards. 
-    *   All other builds, including **gNewSense FreeOnly**, continue to offer standalone dual-architecture (64-Bit and 32-Bit) downloads.
+*   **📦 OFFICIAL VERSION ROADMAP:**
+    *   **gNewSense 5.0:** Slated for a major deployment milestone in **2027**. This version skips Trixie entirely to build natively on top of **Debian 14 (Forky)**, using a streamlined **v14.1.0** package baseline framework to support next-generation runtime engines.
+    *   **gNewSense 5.0.1:** An automated system package patch revision profile that will follow immediately after the 5.0 master branch deployment to handle point-release bug fixes.
+*   **🔌 CRITICAL ARCHITECTURE SCHEMAS:** 
+    *   **gNewSense Base Kali**, **gNewSense Base Parrot**, **gNewSense Base PureOS**, and **gNewSense Base Pop!_OS** are offered **strictly as 64-Bit (`amd64`)** images due to modern upstream toolchains completely dropping legacy x86 structures.
+    *   All other builds, including **gNewSense FreeOnly** and **gNewSense Devuan**, continue to offer standalone dual-architecture (64-Bit and 32-Bit) installer downloads.
 
-All editions feature the **Calamares graphical installer** pre-installed out-of-the-box for quick system deployments. Live ISO images are managed and generated using the **Penguin's Eggs** engine.
+All system builds feature the **Calamares graphical installer** pre-installed out-of-the-box for quick desktop deployment. Live ISO images are generated using the **Penguin's Eggs** engine.
 
 ---
 
-## 💾 System Download Index
+## 💾 System Download Index (Target Release: v5.0 / v5.0.1)
 
-### 🌟 1. The 4 Core Flagship Editions
+### 🌟 1. The 5 Core Flagship Editions 🔄
 Complete, pre-configured out-of-the-box flagship distributions containing our tailored system configurations and default desktop profiles.
 
 *   **gNewSense Workstation**
@@ -29,7 +32,12 @@ Complete, pre-configured out-of-the-box flagship distributions containing our ta
     *   **Label:** KDE Theme Edition (Premium customized layout styles)
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
     *   **Included Layouts:** WhiteSur, Apple Ventura Dark, Sonoma Dark, McSur Dark, Tahoe Light, Windows 11, Skeuo Silver. Powered by SDDM.
-*   **gNewSense FreeOnly** 🔄
+*   **gNewSense Devuan** 🆕
+    *   **Label:** Devuan Init-Freedom Edition (All 7 Official Desktops)
+    *   **Firmware:** Standard performance driver stack on a Systemd-free foundation. Powered by LightDM.
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Included Interfaces (7):** LXQt, LXDE, Cinnamon, KDE Plasma, Xfce, MATE, and core fallback terminal layout scripts.
+*   **gNewSense FreeOnly**
     *   **Label:** Free-Only Workstation (14 desktop environments)
     *   **Firmware:** 100% Free Software compliant running the strict `linux-libre` kernel. Powered by LightDM.
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
@@ -60,14 +68,31 @@ Standalone installer profiles built for alternative interfaces, custom desktop t
 
 ---
 
-### 📦 3. Base Spins (Multi-Desktop GUI Only)
+### 📦 3. Base Spins (Multi-Desktop GUI Only) 🔄
 Comprehensive system bases that include every major desktop configuration officially supported by that distribution's ecosystem on standalone Debian-optimized installer images.
 
+*   **gNewSense Base Kubuntu** 🆕
+    *   **Label:** Base Kubuntu Spin (KDE Ecosystem Flagship Focus)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Included Interfaces (2):** KDE Plasma, KDE Plasma Mobile.
+*   **gNewSense Base LinuxMCE** 🆕
+    *   **Label:** Base LinuxMCE Spin (Media Center & Automation Workstation)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Included Interfaces (3):** LinuxMCE Custom UI, KDE Plasma, MATE.
+*   **gNewSense Base Pop!_OS** 🆕
+    *   **Label:** Base Pop!_OS Spin (Cosmic Toolkit Foundation)
+    *   **Architecture:** 🖥️ **64-Bit (amd64) Only** *(Legacy 32-bit not supported by Cosmic/Rust architecture)*
+    *   **Included Interfaces (2):** COSMIC, Pop Shell (GNOME based).
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
+*   **gNewSense Base BackBox** 🆕
+    *   **Label:** Base BackBox Spin (Penetration Testing & Network Security Core)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Included Interfaces (4):** Xfce, MATE, i3-wm, Fluxbox.
 *   **gNewSense Base Kali**
     *   **Label:** Base Kali Spin (All 10 Cybersecurity Desktops)
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
     *   **Included Interfaces (10):** Xfce, GNOME, KDE Plasma, MATE, LXQt, LXDE, Cinnamon, Enlightenment, GNOME Flashback, i3-wm.
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
+    *   **Downloads:** 高质量 [64-Bit (amd64)](YOUR_LINK)
 *   **gNewSense Base Parrot**
     *   **Label:** Base Parrot Spin (All 5 Advanced Desktops)
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
@@ -78,10 +103,6 @@ Comprehensive system bases that include every major desktop configuration offici
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
     *   **Included Interfaces (2):** GNOME, KDE Plasma.
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
-*   **gNewSense Base Devuan**
-    *   **Label:** Base Devuan Spin (All 7 Official Desktops)
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
-    *   **Included Interfaces (7):** LXQt, LXDE, Cinnamon, KDE Plasma, Xfce, MATE, and core utilities.
 *   **gNewSense Base MXLinux**
     *   **Label:** Base MXLinux Spin (All 3 Official Desktops)
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
@@ -92,13 +113,13 @@ Comprehensive system bases that include every major desktop configuration offici
     *   **Included Interfaces (2):** Trinity (TDE), KDE Plasma.
 *   **gNewSense Base antiX**
     *   **Label:** Base antiX Spin (All 4 Official Desktops)
-    *   **Downloads:** Simulator [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
     *   **Included Interfaces (4):** IceWM, Fluxbox, JWM, Herbstluftwm.
 
 ---
 
 ## 🛠️ Core System & Graphical Installer Design
-*   **System Installer:** Powered natively by Calamares across all architecture choices.
+*   **System Installer:** Powered natively by Calamares linked to the Debian **Forky** base libraries.
 *   **Isolation Architecture:** Desktop sessions are fully sandboxed via unique configuration paths in `/etc/skel/.config/` to prevent cross-theme profile pollution.
 *   **Package Management:** Powered natively by `apt`.
 
@@ -108,7 +129,7 @@ Comprehensive system bases that include every major desktop configuration offici
 
 To rebuild your standalone architecture images:
 
-1. Update your local Debian package databases:
+1. Update your local Debian package databases (pointing your sources to `forky` repositories):
    ```bash
    sudo apt update && sudo apt upgrade -y
    ```
