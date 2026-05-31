@@ -145,3 +145,8 @@ To rebuild your standalone architecture images:
    ```bash
    sudo eggs produce --clone
    ```
+## 👥 Maintainer Infrastructure
+
+Our network routing configurations, registration blueprints, and mirror guidelines are documented inside our master server tracker layout files:
+*   📄 **Registration Checklists:** [domains.md](domains.md) *(Instructions for adult maintainers to claim project subdomains)*
+*   📄 **Operations Guide:** [MAINTAINERS.md](MAINTAINERS.md) *(Guidelines for pushing built ISO files using rsync)*
