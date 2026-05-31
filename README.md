@@ -73,7 +73,7 @@ Comprehensive system bases that include every major desktop configuration offici
 
 *   **gNewSense Base Kubuntu** 🆕
     *   **Label:** Base Kubuntu Spin (KDE Ecosystem Flagship Focus)
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 
     *   **Included Interfaces (2):** KDE Plasma, KDE Plasma Mobile.
 *   **gNewSense Base LinuxMCE** 🆕
     *   **Label:** Base LinuxMCE Spin (Media Center & Automation Workstation)
@@ -86,7 +86,7 @@ Comprehensive system bases that include every major desktop configuration offici
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
 *   **gNewSense Base BackBox** 🆕
     *   **Label:** Base BackBox Spin (Penetration Testing & Network Security Core)
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) |
     *   **Included Interfaces (4):** Xfce, MATE, i3-wm, Fluxbox.
 *   **gNewSense Base Kali**
     *   **Label:** Base Kali Spin (All 10 Cybersecurity Desktops)
