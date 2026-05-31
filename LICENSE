@@ -1,0 +1,26 @@
+gNewSense Evolution Project Licensing Matrix
+===========================================
+
+1. Software Configurations & Scripts
+------------------------------------
+All custom installation wrapper scripts, desktop injection files (such as 'startpolina'), 
+and Penguin's Eggs system templates provided in this repository are licensed under 
+the GNU General Public License v3.0 (GPL-3.0).
+
+2. Historical Graphical Artwork & Logos
+--------------------------------------
+The historical visual assets utilized in this project are used for preservation and 
+tribute purposes under their original licensing frameworks:
+
+* gNewSense 2006 Historical Logo (Orange eye layout variant)
+  Licensed under the GNU Free Documentation License (GFDL v1.2 or later) 
+  and the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+  Original Copyright (C) 2006 gNewSense Developers / Free Software Foundation.
+
+* gNewSense 2012 Historical Logo (Blue/Green glossy sphere variant)
+  Licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0).
+  Original Copyright (C) 2012 gNewSense Core Team.
+
+Permission is granted to copy, distribute and/or modify these decorative assets under 
+the terms of the CC BY-SA 3.0 License. Any derivative work using these graphics must 
+maintain identical attribution properties to the original authors.
