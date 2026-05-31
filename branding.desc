@@ -1,0 +1,29 @@
+# gNewSense Evolution Installer Branding Configuration
+# ===================================================
+---
+componentName:   gnewsense-evolution
+
+strings:
+    productName:         "gNewSense Evolution"
+    shortProductName:    "gNewSense"
+    version:             "5.0 (Forky Base)"
+    shortVersion:        "5.0"
+    versionedName:       "gNewSense Evolution 5.0"
+    shortVersionedName:  "gNewSense 5.0"
+    bootloaderEntryName: "gNewSense"
+    productUrl:          "https://gnewsenserw.org"
+    supportUrl:          "https://github.com"
+    releaseNotesUrl:     "https://sourceforge.net"
+
+images:
+    productLogo:         "/usr/share/sddm/themes/evolution/gnewsense-2012.png"
+    productIcon:         "/usr/share/sddm/themes/evolution/gnewsense-2006.png"
+    productWelcome:      "/usr/share/sddm/themes/evolution/gnewsense-2012.png"
+
+slideshow:               "show.qml"
+
+style:
+    sidebarBackground:    "#1c1c1c"
+    sidebarText:          "#ffffff"
+    sidebarTextSelect:    "#4a90e2"
+    sidebarTextHighlight: "#4a90e2"
