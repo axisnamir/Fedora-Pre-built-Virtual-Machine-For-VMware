@@ -1,0 +1,56 @@
+# gNewSense Evolution - Artwork & Graphics Licensing Directory
+
+This directory houses the official visual assets, branding elements, and vector schemas for the **gNewSense Evolution (v5.0 / v5.0.1)** project. To respect the licensing history of Free Software, our graphical footprint uses a dual-logo configuration to showcase the complete timeline of the system's evolution.
+
+---
+
+## 🎨 Official Multi-Logo Specifications
+
+### 1. The Vintage 2006 gNewSense Logo
+*   **File Path:** `/artwork/logos/gnewsense-2006.png`
+*   **Visual Style:** Historical orange typography layout featuring the stylized circular vector eye framework.
+*   **Legal License:** GNU Free Documentation License (GFDL v1.2 or later) and the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License.
+*   **Copyright Matrix:** Copyright (C) 2006 gNewSense Developers / Free Software Foundation.
+
+### 2. The Glossy 2012 gNewSense Logo
+*   **File Path:** `/artwork/logos/gnewsense-2012.png`
+*   **Visual Style:** Modernized glossy sphere design overlaying blue and green dimensional curvature blocks.
+*   **Legal License:** Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License.
+*   **Copyright Matrix:** Copyright (C) 2012 gNewSense Core Team.
+
+---
+
+## 📜 Legal Usage Terms (CC BY-SA 3.0 & GFDL)
+
+You are completely free to copy, remix, distribute, and display these historical logos in your custom build variants or community web templates under the following legal constraints:
+
+*   **Attribution (BY):** You must provide clear credit to the original gNewSense artwork teams and link straight back to this license directory.
+*   **ShareAlike (SA):** If you alter, morph, or build upon these logo graphics, you must distribute your modified version under the exact same CC BY-SA 3.0 license.
+*   **No Added Constraints:** You cannot apply legal restrictions or digital security lockouts that stop others from doing anything this license allows.
+
+---
+
+## 🛠️ Staging Directories for Web and System Developers
+
+Web developers and system maintainers must reference these graphic paths directly when configuring project assets:
+
+```text
+my-gnewsense-git-repo/
+└── artwork/
+    ├── logos/
+    │   ├── gnewsense-2006.png     # Vintage orange eye vector canvas
+    │   └── gnewsense-2012.png     # Glossy blue/green sphere matrix
+    └── wallpapers/
+        └── desktop-default.png    # Pre-baked system workspace background file
+```
+
+### Display Manager Banner Injector Code
+To display both historical logos side-by-side on your **SDDM** or **LightDM** login screen configurations, reference the shared vector path keys directly in your system style sheets:
+
+```ini
+# SDDM Login Panel Custom Graphic Grid Insertion
+[Branding]
+ThemeName="gNewSense-Evolution"
+LogoLeft="/usr/share/sddm/themes/evolution/gnewsense-2006.png"
+LogoRight="/usr/share/sddm/themes/evolution/gnewsense-2012.png"
+```
