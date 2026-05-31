@@ -52,7 +52,8 @@ Standalone installer profiles built for alternative interfaces, custom desktop t
     *   **Label:** gNewSense Spin (19 desktop environments)
     *   **Firmware:** Full hardware compatibility (`linux-firmware` stack). Powered by SDDM.
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
-    *   **Included Interfaces (19):** COSMIC*, Hyprland*, CDE, Xfce, Cinnamon, MATE, LXQt, LXDE, Budgie, KDE Plasma Mobile, Trinity (TDE), JWM, Sway*, Deepin, Pantheon, Enlightenment, GNOME Flashback, Phosh, Sugar. (*Starred items available on 64-bit ISO only*).
+    *   **Included Interfaces (19):** COSMIC*, Hyprland*, CDE, Xfce, Cinnamon, MATE, LXQt, LXDE, Budgie, KDE Plasma Mobile, Trinity (TDE), JWM, Sway*, Deepin, Pantheon, Enlightenment, GNOME Flashback, Phosh, Sugar. Unity Gnome Flashback.
+    *   (*Starred items available on 64-bit ISO only*).
 *   **gNewSense Polina Spin**
     *   **Label:** Polina Desktop Environment (Experimental LXQt + KWin + KDE Apps)
     *   **Interface:** Hybrid Qt-workspace syncing an LXQt backend with the KWin window compositor and a native KDE Applications utility tray. Powered by SDDM.
