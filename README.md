@@ -171,18 +171,22 @@ If you want to help maintain a stable Debian Forky system featuring customized d
 my-gnewsense-git-repo/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   └── desktop_request.md
-│   └── pull_request_template.md # Your newly created Pull Request instructions
+│   └── pull_request_template.md
 ├── build-templates/
 │   └── flagship-editions/
 │       └── workstation/
 │           ├── boot/grub/
-│           │   └── grub.cfg     # Fully armored with Zen, fallbacks, & diagnostics
+│           │   └── grub.cfg           # Armored GRUB with Linux Zen, fallbacks, & diagnostics
 │           └── etc/
-│               ├── motd         # Re-labeled for the gNewSense Core Team
 │               ├── calamares/modules/
-│               │   └── branding.desc # Preloaded installer metadata presets
+│               │   ├── branding.desc  # Calamares metadata parameters file
+│               │   └── show.qml       # Calamares animation slideshow file
 │               └── skel/
-│                   └── .bashrc  # Imbued with your Golden Crown terminal prompt
-└── README.md
+│                   └── .bashrc        # Imbued with the Golden Crown console prompt
+├── usr/
+│   └── bin/
+│       ├── wp-picker.sh               # Graphic desktop wallpaper switching code
+│       └── sync-themes.sh             # New: Icon theme synchronization code
+├── FAQ.md                             # Multiarch enabled by default tracking document
+├── RELEASE-NOTES.md                   # New: Official v5.0 Forky milestone release overview
+└── README.md                          # Main landing manual containing full catalog lists
