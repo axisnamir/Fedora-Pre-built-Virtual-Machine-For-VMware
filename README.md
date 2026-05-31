@@ -164,3 +164,7 @@ Our distribution images, track files, and hardware assets are organized across o
 ### 🚀 High-Speed SourceForge Backup Mirrors
 *   📦 **Evolution Releases:** [sourceforge.net/projects/gnewsense/](https://sourceforge.net)
 *   🏛️ **Archival Workspace:** [sourceforge.net/projects/gnewsense-archived/](https://sourceforge.net)
+## 🤝 Join the Maintainer Team!
+gNewSense Evolution is currently looking for adult systems administrators, web developers, and server operators to help manage our network infrastructure (`gnewsenserw.org`) and SourceForge project deployment trees. 
+
+If you want to help maintain a stable Debian Forky system featuring customized desktop layouts and optimized window manager arrays, please check out our **[CONTRIBUTING.md](CONTRIBUTING.md)** guidelines and open an issue with the tag `help-wanted`!
