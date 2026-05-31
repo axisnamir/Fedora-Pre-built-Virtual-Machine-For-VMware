@@ -1,0 +1,3 @@
+For adult maintainer you have to do thia
+# Force injection of 32-bit library support into the Debian dpkg configuration
+sudo dpkg --add-architecture i386 && sudo apt update
