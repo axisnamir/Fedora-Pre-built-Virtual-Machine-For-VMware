@@ -168,3 +168,21 @@ Our distribution images, track files, and hardware assets are organized across o
 gNewSense Evolution is currently looking for adult systems administrators, web developers, and server operators to help manage our network infrastructure (`gnewsenserw.org`) and SourceForge project deployment trees. 
 
 If you want to help maintain a stable Debian Forky system featuring customized desktop layouts and optimized window manager arrays, please check out our **[CONTRIBUTING.md](CONTRIBUTING.md)** guidelines and open an issue with the tag `help-wanted`!
+my-gnewsense-git-repo/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── desktop_request.md
+│   └── pull_request_template.md # Your newly created Pull Request instructions
+├── build-templates/
+│   └── flagship-editions/
+│       └── workstation/
+│           ├── boot/grub/
+│           │   └── grub.cfg     # Fully armored with Zen, fallbacks, & diagnostics
+│           └── etc/
+│               ├── motd         # Re-labeled for the gNewSense Core Team
+│               ├── calamares/modules/
+│               │   └── branding.desc # Preloaded installer metadata presets
+│               └── skel/
+│                   └── .bashrc  # Imbued with your Golden Crown terminal prompt
+└── README.md
