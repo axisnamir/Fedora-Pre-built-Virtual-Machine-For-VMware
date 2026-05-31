@@ -149,4 +149,18 @@ To rebuild your standalone architecture images:
 
 Our network routing configurations, registration blueprints, and mirror guidelines are documented inside our master server tracker layout files:
 *   📄 **Registration Checklists:** [domains.md](domains.md) *(Instructions for adult maintainers to claim project subdomains)*
-*   📄 **Operations Guide:** [MAINTAINERS.md](MAINTAINERS.md) *(Guidelines for pushing built ISO files using rsync)*
+*   📄 **Operations Guide:** [MAINTAINERS.md](MAINTAINERS.md) *(Guidelines for pushing built ISO files using rsync)
+*   ## 🌐 Master Network & Mirror Directory
+
+Our distribution images, track files, and hardware assets are organized across our official subdomains and high-speed SourceForge backup mirrors:
+
+*   🌐 **Main Landing Page:** [gnewsenserw.org](https://gnewsenserw.org)
+*   💿 **Flagship Downloads:** `cdimage.gnewsenserw.org`
+*   🖥️ **Desktop & WM Spins:** `spins.gnewsenserw.org`
+*   🧲 **P2P Tracking Engine:** `torrent.gnewsenserw.org`
+*   🔌 **Public Sync Mirrors:** `mirrors.gnewsenserw.org`
+*   📱 **ARM Embedded Platform:** [://gnewsenserw.com](https://://gnewsenserw.com)
+
+### 🚀 High-Speed SourceForge Backup Mirrors
+*   📦 **Evolution Releases:** [sourceforge.net/projects/gnewsense/](https://sourceforge.net)
+*   🏛️ **Archival Workspace:** [sourceforge.net/projects/gnewsense-archived/](https://sourceforge.net)
