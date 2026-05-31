@@ -1,0 +1,14 @@
+gNewSense Evolution v5.0 (Debian Forky Kernel \r)
+
+====================================================================
+ 🖥️  gNewSense Specialized Spin Execution Layer
+====================================================================
+ * Core Framework Base: Debian 14 (Forky) Multi-Session Architecture
+ * Target Builds: gNewSense Spin / Polina / Tiling WM / Stacking WM
+ * System Security: User profiles sandboxed inside /etc/skel/.config/
+====================================================================
+
+To submit bug tracking reports: github dot com / gnewsenselinux
+Project Download Node: cdimage dot gnewsenserw dot org
+
+gnewsense login: 
