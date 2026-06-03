@@ -75,10 +75,6 @@ Comprehensive system bases that include every major desktop configuration offici
     *   **Label:** Base Kubuntu Spin (KDE Ecosystem Flagship Focus)
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 
     *   **Included Interfaces (2):** KDE Plasma, KDE Plasma Mobile.
-*   **gNewSense Base LinuxMCE** 🆕
-    *   **Label:** Base LinuxMCE Spin (Media Center & Automation Workstation)
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
-    *   **Included Interfaces (3):** LinuxMCE Custom UI, KDE Plasma, MATE.
 *   **gNewSense Base Pop!_OS** 🆕
     *   **Label:** Base Pop!_OS Spin (Cosmic Toolkit Foundation)
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only** *(Legacy 32-bit not supported by Cosmic/Rust architecture)*
