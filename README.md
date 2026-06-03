@@ -92,7 +92,7 @@ Comprehensive system bases that include every major desktop configuration offici
     *   **Label:** Base Kali Spin (All 10 Cybersecurity Desktops)
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
     *   **Included Interfaces (10):** Xfce, GNOME, KDE Plasma, MATE, LXQt, LXDE, Cinnamon, Enlightenment, GNOME Flashback, i3-wm.
-    *   **Downloads:** 高质量 [64-Bit (amd64)](YOUR_LINK)
+    *   **Downloads:** [64-Bit (amd64)](YOUR_LINK)
 *   **gNewSense Base Parrot**
     *   **Label:** Base Parrot Spin (All 5 Advanced Desktops)
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
