@@ -49,7 +49,7 @@ Complete, pre-configured out-of-the-box flagship distributions containing our ta
 Standalone installer profiles built for alternative interfaces, custom desktop testing, and high-density window manager workspaces.
 
 *   **gNewSense Spin** 🔄
-    *   **Label:** gNewSense Spin (21 desktop environments)
+    *   **Label:** gNewSense Spin (22 desktop environments)
     *   **Firmware:** Full hardware compatibility (`linux-firmware` stack). Powered by SDDM.
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
     *   **Included Interfaces (21):** COSMIC*, Hyprland*, Unity, CDE, Xfce, Cinnamon, MATE, LXQt, LXDE, Budgie, KDE Plasma Mobile, Trinity (TDE), JWM, Sway*, Deepin, Pantheon, Enlightenment, GNOME Flashback, Phosh, Sugar, Budgie, standard multi-session profiles. (*Starred items available on 64-bit ISO only*).
