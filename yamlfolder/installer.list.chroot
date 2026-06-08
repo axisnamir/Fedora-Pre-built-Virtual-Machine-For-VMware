@@ -1,0 +1,11 @@
+calamares
+calamares-settings-debian
+flatpak
+snapd
+nix-bin
+curl
+wget
+git
+sudo
+build-essential
+gparted
