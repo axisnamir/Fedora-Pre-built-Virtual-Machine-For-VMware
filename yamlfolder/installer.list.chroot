@@ -9,3 +9,5 @@ git
 sudo
 build-essential
 gparted
+tmux
+htop
