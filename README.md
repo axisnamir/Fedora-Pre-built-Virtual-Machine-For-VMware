@@ -2,10 +2,7 @@
 
 Welcome to the future rebirth of **gNewSense**. This repository hosts a curated collection of operating system editions optimized for maximum long-term system stability and performance. To avoid unstable breaking updates, our entire ecosystem tracks the clean upstream **Debian** development branches.
 
-*   **📦 OFFICIAL VERSION ROADMAP:**
-    *   **gNewSense 5.0:** Slated for a major deployment milestone in **2027**. This version skips Trixie entirely to build natively on top of **Debian 14 (Forky)**, using a streamlined **v14.1.0** package baseline framework to support next-generation runtime engines.
-    *   **gNewSense 5.0.1:** An automated system package patch revision profile that will follow immediately after the 5.0 master branch deployment to handle point-release bug fixes.
-
+*  
 ---
 
 ## 💾 System Download Index (Target Release: v5.0 / v5.0.1)
