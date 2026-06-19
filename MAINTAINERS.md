@@ -13,7 +13,7 @@ Every pull request (PR) or ISO compilation update must pass these strict complia
 *   **Clean Title Case Enforcement:** Never allow fully capitalized text blocks inside public system logs or metadata fields. Keep all text presentation in professional Title Case (e.g., `gNewSense Personal Desktop`, `gNewSense Polina Spin`).
 *   **Prevent Theme Pollution:** Ensure every environment's settings remain completely sandboxed inside `/etc/skel/.config/` or `/etc/skel/.local/share/`. Modifying global configuration pathways directly will break other desktop layers and is strictly forbidden.
 *   **Architecture Isolation Rules:**
-    *   **64-Bit (`amd64`) Only:** Do not create or accept 32-bit builds for `gNewSense FreeOnly`, `Base Endeavour`, `Base CachyOS`, `Base BlackArch`, or `Base Artix`. These must remain 64-bit to prevent toolkit failures.
+    *   * Initialize the Build EnvironmentCreate a dedicated project directory and run the initialization command
     *   **Dual Architecture (`amd64` / `i686`):** All other editions must provide separate, standalone 32-bit and 64-bit installer ISO files to preserve retro legacy hardware utility support.
 
 ---
@@ -25,7 +25,7 @@ Once an edition or spin build passes local diagnostic testing via the **Penguin'
 ### Step 1: Clean and Prepare the Local Sandbox Image
 Wipe tracking logs, package caches, and temporary installation footprints inside your build container to ensure the output image size remains optimized:
 ```bash
- sudo pacman -Scc
+ sudo apt clean
 
 sudo eggs produce --clone
 ```
