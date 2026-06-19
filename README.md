@@ -24,11 +24,11 @@ Complete, pre-configured out-of-the-box flagship distributions containing our ta
     *   **Label:** KDE Theme Edition (Premium customized layout styles)
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
     *   **Included Layouts:** WhiteSur, Apple Ventura Dark, Sonoma Dark, McSur Dark, Tahoe Light, Windows 11, Skeuo Silver. Powered by SDDM.
-*   **gNewSense Artix** 🆕
+*   **gNewSense Devuan** 🆕
     *   **Label:** Devuan Init-Freedom Edition (All 7 Official Desktops)
     *   **Firmware:** Standard performance driver stack on a Systemd-free foundation. Powered by LightDM.
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
-    *   **Included Interfaces (7):** LXQt, LXDE, Cinnamon, KDE Plasma, Xfce, MATE, and core fallback terminal layout scripts.
+    *   **Included Interfaces (10):** LXQt, LXDE, Cinnamon, SonicDE, Xfce, MATE, i3 Fluxbox openbox icewm and core fallback terminal layout scripts.
 *   **gNewSense FreeOnly**
     *   **Label:** Free-Only Workstation (14 desktop environments)
     *   **Firmware:** 100% Free Software compliant running the strict `linux-libre` kernel. Powered by LightDM.
@@ -57,6 +57,10 @@ Standalone installer profiles built for alternative interfaces, custom desktop t
     *   **Label:** Stacking Window Manager Spin (34 stacking managers)
     *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
     *   **Included Interfaces (34):** Openbox, Fluxbox, JWM, Blackbox, Enlightenment, IceWM, Marco, Metacity, Muffin, KWin standalone, Gala, CTWM, 2bwm, 9wm, aewm++, AfterStep, berry, Compiz, cwm, E16, eggwm, EMWM, evilwm, flwm, FVWM3, Goomwwm, jbwm, Karmen, lwm, MWM, PekWM, progman, Sawfish, Metacity standalone. Powered by LightDM.
+    *   ****   **gNewSense LXDEmods**
+    *   **Label:** LXDE with a i3 window manager without openbox
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   
 
 ---
 
@@ -64,25 +68,32 @@ Standalone installer profiles built for alternative interfaces, custom desktop t
 Comprehensive system bases that include every major desktop configuration officially supported by that distribution's ecosystem on standalone Debian-optimized installer images.
 
 
-*   **gNewSense Base BlackArch**
+*gNewSense Base Kubuntu** 🆕
+    *   **Label:** Base Kubuntu Spin (KDE Ecosystem Flagship Focus)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Included Interfaces (2):** KDE Plasma, KDE Plasma Mobile.
+*   **gNewSense Base LinuxMCE** 🆕
+    *   **Label:** Base LinuxMCE Spin (Media Center & Automation Workstation)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Included Interfaces (3):** LinuxMCE Custom UI, KDE Plasma, MATE.
+*   **gNewSense Base Pop!_OS** 🆕
+    *   **Label:** Base Pop!_OS Spin (Cosmic Toolkit Foundation)
+    *   **Architecture:** 🖥️ **64-Bit (amd64) Only** *(Legacy 32-bit not supported by Cosmic/Rust architecture)*
+    *   **Included Interfaces (2):** COSMIC, Pop Shell (GNOME based).
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
+*   **gNewSense Base BackBox** 🆕
+    *   **Label:** Base BackBox Spin (Penetration Testing & Network Security Core)
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
+    *   **Included Interfaces (4):** Xfce, MATE, i3-wm, Fluxbox.
+*   **gNewSense Base Kali**
     *   **Label:** Base Kali Spin (All 10 Cybersecurity Desktops)
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
     *   **Included Interfaces (10):** Xfce, GNOME, KDE Plasma, MATE, LXQt, LXDE, Cinnamon, Enlightenment, GNOME Flashback, i3-wm.
-    *   **Downloads:** [64-Bit (amd64)](YOUR_LINK)
-*   **gNewSense Base Manjaro**
+    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
+    *   **Downloads:** 高质量 [64-Bit (amd64)](YOUR_LINK)
+*   **gNewSense Base Parrot**
     *   **Label:** Base Parrot Spin (All 5 Advanced Desktops)
     *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
-    *   **Included Interfaces (5):** MATE, KDE Plasma, LXQt, Enlightenment, and system utilities.
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
-*   **gNewSense Base RebornOS**
-    *   **Label:** Base PureOS Spin (All 2 Official Desktops)
-    *   **Architecture:** 🖥️ **64-Bit (amd64) Only**
-    *   **Included Interfaces (2):** GNOME, KDE Plasma.
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK)
-*   **gNewSense Base MXLinux**
-    *   **Label:** Base MXLinux Spin (All 1 Official Desktops)
-    *   **Downloads:** 💿 [64-Bit (amd64)](YOUR_LINK) | 💿 [32-Bit (i686)](YOUR_LINK)
-    *   **Included Interfaces (1):**  KDE Plasma.
 * 
 ---
 
@@ -98,18 +109,14 @@ Comprehensive system bases that include every major desktop configuration offici
 To rebuild your standalone architecture images:
 
 # 1. Update your system and install yay if you haven't already
-sudo pacman -Syu yay
+sudo apt update
+sudo apt install -y live-build squashfs-tools live-boot live-config xorriso isolinu
 
-# 2. Install Penguins-eggs from the AUR
-yay -S penguins-eggs
 
-# 3. Use eggs to download and install Calamares along with its specific dependencies
-sudo eggs calamares --install
-   ```
-4. Run Penguin's Eggs engine to render your bootable installation media:
-   ```bash
-   sudo eggs produce --clone
-   ```
+# 2.  Initialize the Build EnvironmentCreate a dedicated project directory and run the initialization command
+mkdir ~/debian-live && cd ~/debian-live
+lb config
+
 ## 👥 Maintainer Infrastructure
 
 Our network routing configurations, registration blueprints, and mirror guidelines are documented inside our master server tracker layout files:
